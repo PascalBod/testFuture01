@@ -34,7 +34,8 @@ import scala.util.Random
   * Additionally, the code shows how to filter out a Future which does not satisfy
   * a condition: check the foreach applied to every created Future.
   *
-  * In this exemple, the body of every task is a wait operation, for a random duration  * between 0 and maxVal milliseconds. After the wait operation, the task checks the duration.
+  * In this exemple, the body of every task is a wait operation, for a random duration
+  * between 0 and maxVal milliseconds. After the wait operation, the task checks the duration.
   * If it has been more than maxVal / 4, it triggers a RuntimeException, otherwise it
   * returns the duration value and task name.
   *
