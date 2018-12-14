@@ -32,7 +32,7 @@ import scala.util.Random
   * into an error status.
   *
   * Additionally, the code shows how to filter out a Future which does not satisfy
-  * a condition: check the foreach applied to every created Future.
+  * a condition: see the foreach applied to every created Future.
   *
   * In this exemple, the body of every task is a wait operation, for a random duration
   * between 0 and maxVal milliseconds. After the wait operation, the task checks the duration.
